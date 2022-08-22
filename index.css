@@ -1,0 +1,136 @@
+body {
+  background: linear-gradient(90deg, red, blue);
+  font-family: 'Times New Roman';
+  margin: 0;
+  align-items: center;
+  height: 100vh;
+}
+body h1 {
+  text-align: center;
+  color: white;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+}
+.centering {
+  display: flex;
+  justify-content: center;
+  padding: 0 20px;
+}
+.slide {
+  height: 80vh;
+  border-radius: 20px;
+  margin: 5px;
+  cursor: pointer;
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  transition: all 500ms ease-in-out;
+}
+.slide h3 {
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+  font-size: 25px;
+  margin: 0;
+  opacity: 0;
+  color: white;
+  font-style: italic;
+  letter-spacing: 1px;
+  font-size: 25px;
+}
+.active1 {
+  flex: 10;
+}
+.active2 {
+  flex: 10;
+}
+.active3 {
+  flex: 10;
+}
+.active4 {
+  flex: 10;
+}
+.active1 h3 {
+  opacity: 1;
+  transition: opacity 0.4s ease-in 0.4s;
+}
+.active2 h3 {
+  opacity: 1;
+  transition: opacity 0.4s ease-in 0.4s;
+}
+.active3 h3 {
+  opacity: 1;
+  transition: opacity 0.4s ease-in 0.4s;
+}
+.active4 h3 {
+  opacity: 1;
+  transition: opacity 0.4s ease-in 0.4s;
+}
+.Porsсhe718Cayman {
+  background-image: url(DSC_0025-1_BM.jpg);
+}
+.Porsсhe718CaymanGTS40 {
+  background-image: url(porsm129.jpg);
+}
+.Porsсhe718CaymanGT4 {
+  background-image: url(2020-Porsche-718-Cayman-GT4-Color-Miami-Blue-Front-Three-Quarter-Wallpaper.jpg);
+}
+.Porsсhe718Boxster {
+  background-image: url(1108256.jpg);
+}
+.Porsсhe718BoxsterGTS40 {
+  background-image: url(1107976.jpg);
+}
+.Porsсhe911Carrera {
+  background-image: url(porsche-911-carrera-03.jpg);
+}
+.Porsсhe911Carrera4S {
+  background-image: url(Porsche_1B.jpg);
+}
+.Porsсhe911CarreraGTS {
+  background-image: url(78458.jpg);
+}
+.Porsсhe911Targa4 {
+  background-image: url(pors9827.jpg);
+}
+.Porsсhe911GT3 {
+  background-image: url(porsche-911-gt3-rs-wallpapers-34744-7734575.png);
+}
+.PorsсhePanamera4S {
+  background-image: url(https://kuznitsaspb.ru/wp-content/uploads/9/3/0/930559c960b6fccabbb02c8fc23a6384.jpeg);
+}
+.PorsсhePanamera4E-Hybrid {
+  background-image: url(porsche-2018-panamera-4-e-hybrid-plug-electric-range_3.jpg);
+}
+.PorsсhePanamera4SE-Hybrid {
+  background-image: url(1100764.jpg);
+}
+.PorsсhePanamera4Executive {
+  background-image: url(Panamera-971-Executive.jpg);
+}
+.PorsсhePanameraGTSSportTurismo {
+  background-image: url(394E.jpg);
+}
+.PorsсheTaycan {
+  background-image: url(porsta047.jpg);
+}
+.PorsсheTaycanSportTurismo {
+  background-image: url(61c79eafcce8ae4b1cfe3d9a0b53a472.jpg);
+}
+.PorsсheTaycan4S {
+  background-image: url(2020-Porsche-Taycan-4s-151.jpg);
+}
+.PorsсheTaycanT {
+  background-image: url(porsche-taycan-vossen-wheels.jpg);
+}
+.PorsсheTaycanGTS  {
+  background-image: url(car32647.jpg);
+}
